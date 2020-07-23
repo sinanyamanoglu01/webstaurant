@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-23T23:27:48.182Z",
+        "line": 4,
+        "name": "Search an item and add to the Cart",
+        "description": "",
+        "id": "assigment;search-an-item-and-add-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7340000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to home page",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1742000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searches for stainless work table",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_searches_for_stainless_work_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5875000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies search results\u0027 titles includes Table word",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_verifies_search_results_titles_includes_table_word()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3010000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User adds last item in the list to the Cart",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_adds_last_item_in_the_list_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2392000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User empties the Cart",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_empties_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets succsess message",
+            "match": {
+              "location": "com.webstraunt.stepDefinitions.SDsHomePage.user_gets_succsess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@runNow"
+          }
+        ]
+      }
+    ],
+    "name": "Assigment",
+    "description": "",
+    "id": "assigment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/webstraunt.feature",
+    "tags": []
+  }
+]
